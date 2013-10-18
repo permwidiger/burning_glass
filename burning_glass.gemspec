@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = BurningGlass::VERSION
   spec.authors       = ["IgniteMark"]
   spec.email         = ["mark@ignitewithus.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = "Gem for connecting to the Burning Glass LensWebSrv service"
+  spec.summary       = "Gem for connecting to the Burning Glass LensWebSrv service"
   spec.homepage      = ""
   spec.license       = "MIT"
 
