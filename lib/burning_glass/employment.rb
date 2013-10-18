@@ -4,22 +4,22 @@ module Burning_Glass
 
     def self.parse(employment_history)
       return Array.new if employment_history.nil?
-      result = employment_history.css('EmployerHistory').collect do |item|
-        position = item.css('PositionHistory').first
+      result = employment_history.css('job').collect do |item|
+        position = item['pos'] #rescue nil
         e = Employment.new
-        e.employer = item.css('OrganizationUnitName').text
-        e.division = position.css('OrganizationName').text
+        e.employer = item.css('employer').text
+        e.division = item.css('department').text
         e.division = nil if e.employer == e.division
-        item.css('OrganizationContact Communication Address').collect do |addy|
-          e.city = addy.css('oa|CityName').text
-          e.state = addy.css('oa|CountrySubDivisionCode').text
-          e.country = addy.css('CountryCode').text
+        item.css('address').collect do |addy|
+          e.city = addy.css('city').text
+          e.state = addy.css('state').text
+          e.country = addy.css('country').text
         end
-        e.title = position.css('PositionTitle').text
-        e.description = position.css('oa|Description').text
-        e.start_date = Date.parse(position.css('StartDate').text) rescue nil
-        e.current_employer = position['DateText'] == "true"
-        e.end_date = e.current_employer ? nil : (Date.parse(position.css('EndDate').text) rescue nil)
+        e.title = item.css('title').text
+        e.description = item.css('description').text
+        e.start_date = Date.parse(item.css('daterange start').text) rescue nil
+        e.current_employer = item['DateText'] == "true"
+        e.end_date = e.current_employer ? nil : (Date.parse(item.css('daterange end').text) rescue nil)
         e
       end
       result

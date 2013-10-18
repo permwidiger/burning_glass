@@ -4,9 +4,9 @@ module Burning_Glass
 
     def self.parse(achievements)
       return Array.new if achievements.nil?
-      result = achievements.css('Achievement').collect do |item|
+      result = achievements.css('honors').collect do |item|
         c = Achievement.new
-        c.description = item.css('Description').text
+        c.description = item.text
         c
       end
       result

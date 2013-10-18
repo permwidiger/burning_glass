@@ -5,30 +5,34 @@ module Burning_Glass
     def self.parse(contact_information)
       return nil if contact_information.nil?
       result = self.new
-      result.first_name = contact_information.css('PersonName oa|GivenName').collect(&:text).join(" ")
-      result.middle_name = contact_information.css('PersonName MiddleName').collect(&:text).join(" ")
-      result.last_name = contact_information.css('PersonName FamilyName').collect(&:text).join(" ")
+      result.first_name = contact_information.css('name givenname').collect(&:text).join(" ")
+     # result.middle_name = contact_information.css('PersonName MiddleName').collect(&:text).join(" ")
+      result.last_name = contact_information.css('name surname').collect(&:text).join(" ")
       #?
-      result.aristocratic_title = contact_information.css('PersonName Affix[type=aristocraticTitle]').collect(&:text).join(" ")
-      result.form_of_address = contact_information.css('PersonName Affix[type=formOfAddress]').collect(&:text).join(" ")
-      result.generation = contact_information.css('PersonName Affix[type=generation]').collect(&:text).join(" ")
-      result.qualification = contact_information.css('PersonName Affix[type=qualification]').collect(&:text).join(" ")
+      result.aristocratic_title = contact_information.css('name honorific').collect(&:text).join(" ")
+     # result.form_of_address = contact_information.css('PersonName Affix[type=formOfAddress]').collect(&:text).join(" ")
+     # result.generation = contact_information.css('PersonName Affix[type=generation]').collect(&:text).join(" ")
+      result.qualification = contact_information.css('name namesuffix').collect(&:text).join(" ")
 
-      address = contact_information.css('Communication Address oa|AddressLine').collect(&:text)
+      address = contact_information.css('address street').collect(&:text)
       result.address_line_1 = address[0] if address.length > 0
       result.address_line_2 = address[1] if address.length > 1
-      result.city = contact_information.css('Communication Address oa|CityName').text rescue nil
-      result.state = contact_information.css('Communication Address oa|CountrySubDivisionCode').text rescue nil
-      result.postal_code = contact_information.css('Communication Address oa|PostalCode').text rescue nil
-      result.country = contact_information.css('Communication Address CountryCode').text rescue nil
+      result.city = contact_information.css('address city').text rescue nil
+      result.state = contact_information.css('address state').text rescue nil
+      result.postal_code = contact_information.css('address postalcode').text rescue nil
+      result.country = contact_information.css('address country').text rescue nil
 
-      result.home_phone = contact_information.css('Communication oa|DialNumber').first.text rescue nil
-      #?
-      result.mobile_phone = contact_information.css('Communication oa|DialNumber').first.text rescue nil
+      if !contact_information.css('phone').first.blank?
+        result.home_phone = contact_information.css('phone').first.text rescue nil
+      else
+        result.home_phone = contact_information.css('phone home').first rescue nil
+        end
 
-      result.website = contact_information.css('Communication oa:URI').first.text rescue nil
-      #?
-      result.email = contact_information.css('Communication oa:URI').first.text rescue nil
+      result.mobile_phone = contact_information.css('phone cell').first rescue nil
+
+      result.website = contact_information.css('website').first rescue nil
+
+      result.email = contact_information.css('email').first rescue nil
 
       result
     end

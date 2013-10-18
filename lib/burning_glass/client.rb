@@ -18,8 +18,8 @@ module Burning_Glass
     end
 
     def parse(file)
-      result = connection.call(:tag_hrxml_binary_data, message: {InstanceCode: @instanceCode, BinaryData: Base64.encode64(file)})
-      Resume.parse(result.body[:tag_hrxml_binary_data_response][:tag_hrxml_binary_data_return])
+      result = connection.call(:tag_binary_data, message: {InstanceCode: @instanceCode, BinaryData: Base64.encode64(file)})
+      Resume.parse(result.body[:tag_binary_data_response][:tag_binary_data_return])
     end
 
   end

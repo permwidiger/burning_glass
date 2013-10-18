@@ -5,9 +5,9 @@
     <ignored path="burning_glass.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/burning_glass.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381781380425" ignored="false" />
-    <file path="/achievement.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381781462239" ignored="false" />
+    <file path="/achievement.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382117237283" ignored="false" />
     <file path="/client.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381858909738" ignored="false" />
-    <file path="/resume.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381950197229" ignored="false" />
+    <file path="/resume.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382117378246" ignored="false" />
     <file path="/a.dummy" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381781996550" ignored="false" />
     <file path="/burning_glass_spec.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381782126437" ignored="false" />
     <file path="/client_spec.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381782273931" ignored="false" />
@@ -23,14 +23,19 @@
     <file path="$USER_HOME$/projects/Matchstiq/app/models/resume.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381849195849" ignored="false" />
     <file path="$USER_HOME$/projects/Matchstiq/config/settings.yml" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381850173057" ignored="false" />
     <file path="/settings.yml" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381850111561" ignored="false" />
-    <file path="/fragment.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381946357127" ignored="false" />
-    <file path="/employment.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381869047795" ignored="false" />
-    <file path="/education.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381934314790" ignored="false" />
-    <file path="/contact_information.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381936102307" ignored="false" />
-    <file path="/certification.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381937583392" ignored="false" />
-    <file path="/competency.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381946595124" ignored="false" />
+    <file path="/fragment.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382118104019" ignored="false" />
+    <file path="/employment.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382019774323" ignored="false" />
+    <file path="/education.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382030143523" ignored="false" />
+    <file path="/contact_information.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382031633162" ignored="false" />
+    <file path="/certification.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382111305987" ignored="false" />
+    <file path="/competency.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382105753963" ignored="false" />
     <file path="$USER_HOME$/projects/Matchstiq/app/models/competency.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381946595124" ignored="false" />
     <file path="/patent.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381948438213" ignored="false" />
+    <file path="/language.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382107581342" ignored="false" />
+    <file path="/reference.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382110312179" ignored="false" />
+    <file path="/association.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382117354206" ignored="false" />
+    <file path="/publication.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382118422603" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/app/models/publication.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382118429209" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +55,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="resume.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="resume.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/burning_glass/resume.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="39" selection-start="979" selection-end="979" vertical-scroll-proportion="0.41379312">
+            <state line="8" column="23" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -62,7 +67,7 @@
       <file leaf-file-name="publication.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/burning_glass/publication.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="53" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0">
+            <state line="11" column="54" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,16 +85,7 @@
       <file leaf-file-name="certification.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/burning_glass/certification.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="52" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="education.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/burning_glass/education.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="10" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0">
+            <state line="8" column="21" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,16 +94,7 @@
       <file leaf-file-name="employment.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/burning_glass/employment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact_information.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/burning_glass/contact_information.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="16" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
+            <state line="8" column="26" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,10 +109,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="association.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/burning_glass/association.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="competency.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/burning_glass/competency.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+            <state line="27" column="3" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="burning_glass.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/burning_glass.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="5" selection-start="470" selection-end="470" vertical-scroll-proportion="0.7055336">
               <folding />
             </state>
           </provider>
@@ -134,7 +139,7 @@
       <file leaf-file-name="client.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/burning_glass/client.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="40" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+            <state line="20" column="47" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,21 +162,21 @@
         <option value="$PROJECT_DIR$/spec/burning_glass/client_spec.rb" />
         <option value="$PROJECT_DIR$/burning_glass.gemspec" />
         <option value="$PROJECT_DIR$/lib/burning_glass.rb" />
-        <option value="$PROJECT_DIR$/lib/burning_glass/client.rb" />
-        <option value="$PROJECT_DIR$/lib/burning_glass/employment.rb" />
         <option value="$PROJECT_DIR$/lib/burning_glass/education.rb" />
         <option value="$PROJECT_DIR$/lib/burning_glass/contact_information.rb" />
         <option value="$PROJECT_DIR$/lib/burning_glass/certification.rb" />
         <option value="$PROJECT_DIR$/lib/burning_glass/competency.rb" />
         <option value="$PROJECT_DIR$/lib/burning_glass/patent.rb" />
         <option value="$PROJECT_DIR$/lib/burning_glass/publication.rb" />
+        <option value="$PROJECT_DIR$/lib/burning_glass/client.rb" />
+        <option value="$PROJECT_DIR$/lib/burning_glass/employment.rb" />
         <option value="$PROJECT_DIR$/lib/burning_glass/resume.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="282" />
-    <option name="y" value="100" />
+    <option name="x" value="162" />
+    <option name="y" value="64" />
     <option name="width" value="1743" />
     <option name="height" value="786" />
   </component>
@@ -360,8 +365,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="282" y="100" width="1743" height="786" extended-state="0" />
-    <editor active="true" />
+    <frame x="162" y="64" width="1743" height="786" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -443,11 +448,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/lib/burning_glass/employment.rb</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/lib/burning_glass/competency.rb</url>
           <line>6</line>
           <option name="timeStamp" value="2" />
@@ -457,18 +457,26 @@
           <line>23</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/lib/burning_glass/resume.rb</url>
+          <line>11</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/lib/burning_glass/resume.rb</url>
+          <line>9</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/lib/burning_glass/employment.rb</url>
+          <line>6</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="36" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -490,30 +498,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/burning_glass.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="56" selection-start="218" selection-end="218" vertical-scroll-proportion="-3.0357144">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/burning_glass/client_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="59" selection-start="489" selection-end="489" vertical-scroll-proportion="-4.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/burning_glass/client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="40" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/burning_glass/employment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -532,27 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/burning_glass/achievement.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/burning_glass/certification.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="52" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/burning_glass/competency.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/burning_glass/patent.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="42" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
@@ -562,14 +528,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/burning_glass/publication.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="53" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0">
+        <state line="11" column="54" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/burning_glass/resume.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="979" selection-end="979" vertical-scroll-proportion="0.41379312">
+        <state line="8" column="23" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/burning_glass/employment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/burning_glass/achievement.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/burning_glass/association.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/burning_glass/certification.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="21" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/burning_glass/client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="47" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/burning_glass/competency.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="3" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/burning_glass.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="470" selection-end="470" vertical-scroll-proportion="0.7055336">
           <folding />
         </state>
       </provider>

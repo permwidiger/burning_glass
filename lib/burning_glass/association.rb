@@ -4,10 +4,10 @@ module Burning_Glass
 
     def self.parse(associations)
       return Array.new if associations.nil?
-      result = associations.css('Association').collect do |item|
+      result = associations.css('affiliations').collect do |item|
         c = Association.new
-        c.name = item.css('Name').first.text
-        c.role = item.css('Role Name').text
+        c.name = item.text
+        #c.role = item.css('Role Name').text
         c
       end
       result

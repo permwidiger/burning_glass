@@ -4,11 +4,11 @@ module Burning_Glass
 
     def self.parse(certifications)
       return Array.new if certifications.nil?
-      result = certifications.css('License').collect do |item|
+      result = certifications.css('courses').collect do |item|
         c = Certification.new
-        c.name = item.css('LicenseName').text
-        c.description = item.css('oa|Description').text
-        c.effective_date = Date.parse(item.css('FirstIssuedDate').text) rescue nil
+        c.name = item.text
+        c.description = item.css('skill').text
+        #c.effective_date = Date.parse(item.css('FirstIssuedDate').text) rescue nil
         c
       end
       result
