@@ -7,7 +7,6 @@ module Burning_Glass
       result = education_history.css('school').collect do |item|
         e = Education.new
         e.school_name = item.css('institution').text
-        #?
         e.city, e.state, e.country = item.css('address city, address state, address country').collect(&:text)      rescue nil
         e.degree_type = item.css('degree').blank? ? '' : item.css('degree').attr('level').text    rescue nil
         e.degree_name = item.css('degree').text

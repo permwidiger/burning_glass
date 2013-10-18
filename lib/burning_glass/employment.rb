@@ -5,7 +5,6 @@ module Burning_Glass
     def self.parse(employment_history)
       return Array.new if employment_history.nil?
       result = employment_history.css('job').collect do |item|
-        position = item['pos'] #rescue nil
         e = Employment.new
         e.employer = item.css('employer').text
         e.division = item.css('department').text

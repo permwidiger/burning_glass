@@ -7,7 +7,6 @@ module Burning_Glass
       result = associations.css('affiliations').collect do |item|
         c = Association.new
         c.name = item.text
-        #c.role = item.css('Role Name').text
         c
       end
       result

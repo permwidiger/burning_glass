@@ -7,10 +7,6 @@ module Burning_Glass
       result = references.css('references').collect do |item|
         r = Reference.new
         r.name = item.text
-        #r.name = item.css('PersonName FormattedName').text
-        #r.title = item.css('PositionTitle').text
-        #r.email = item.css('ContactMethod InternetEmailAddress').first.text rescue nil
-        #r.phone_number = item.css('ContactMethod Telephone FormattedNumber').first.text rescue nil
         r
       end
       result

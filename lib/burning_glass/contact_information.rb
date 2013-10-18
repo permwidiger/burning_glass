@@ -6,12 +6,8 @@ module Burning_Glass
       return nil if contact_information.nil?
       result = self.new
       result.first_name = contact_information.css('name givenname').collect(&:text).join(" ")
-     # result.middle_name = contact_information.css('PersonName MiddleName').collect(&:text).join(" ")
       result.last_name = contact_information.css('name surname').collect(&:text).join(" ")
-      #?
       result.aristocratic_title = contact_information.css('name honorific').collect(&:text).join(" ")
-     # result.form_of_address = contact_information.css('PersonName Affix[type=formOfAddress]').collect(&:text).join(" ")
-     # result.generation = contact_information.css('PersonName Affix[type=generation]').collect(&:text).join(" ")
       result.qualification = contact_information.css('name namesuffix').collect(&:text).join(" ")
 
       address = contact_information.css('address street').collect(&:text)

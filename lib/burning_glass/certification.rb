@@ -8,7 +8,7 @@ module Burning_Glass
         c = Certification.new
         c.name = item.text
         c.description = item.css('skill').text
-        #c.effective_date = Date.parse(item.css('FirstIssuedDate').text) rescue nil
+
         c
       end
       result
