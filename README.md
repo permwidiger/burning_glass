@@ -1,3 +1,6 @@
+
+A ruby gem to connect to the Burning Glass LensWebSrv service
+
 # BurningGlass
 
 TODO: Write a gem description
