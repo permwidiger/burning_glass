@@ -48,7 +48,7 @@
     <file path="/index.html.haml" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382130694025" ignored="false" />
     <file path="$USER_HOME$/projects/Matchstiq/app/models/applicant.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382130972031" ignored="false" />
     <file path="/applicant.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382130946777" ignored="false" />
-    <file path="/README.md" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382975654680" ignored="false" />
+    <file path="/README.md" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382979758609" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +152,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="4" selection-start="1343" selection-end="1343" vertical-scroll-proportion="0.7788104">
+            <state line="23" column="68" selection-start="475" selection-end="475" vertical-scroll-proportion="0.17843866">
               <folding />
             </state>
           </provider>
@@ -593,7 +593,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="4" selection-start="1343" selection-end="1343" vertical-scroll-proportion="0.7788104">
+        <state line="23" column="68" selection-start="475" selection-end="475" vertical-scroll-proportion="0.17843866">
           <folding />
         </state>
       </provider>
