@@ -31,7 +31,7 @@ Pass your client key into the initializer with the :instanceCode param:
 
         @client = Burning_Glass::Client.new(wsdl: Settings.burning_glass.wsdl, instanceCode: Settings.burning_glass.instance_code)
 
-    where wsdl: is the location of the Burning Glass WSDL and instanceCode: is your Burning Glass issued instance code / access key
+where wsdl: is the location of the Burning Glass WSDL and instanceCode: is your Burning Glass issued instance code / access key
 
 - Step 2:
         Pass the resume you wish to parse into client.parse()

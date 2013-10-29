@@ -7,8 +7,8 @@
     <file path="/burning_glass.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381781380425" ignored="false" />
     <file path="/achievement.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382117237283" ignored="false" />
     <file path="/client.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382975509388" ignored="false" />
-    <file path="/resume.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382131385336" ignored="false" />
-    <file path="/a.dummy" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381781996550" ignored="false" />
+    <file path="/resume.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382985527302" ignored="false" />
+    <file path="/a.dummy" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383080822187" ignored="false" />
     <file path="/burning_glass_spec.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381782126437" ignored="false" />
     <file path="/client_spec.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381782273931" ignored="false" />
     <file path="/burning_glass.gemspec" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382123799777" ignored="false" />
@@ -17,13 +17,13 @@
     <file path="/Gemfile" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382123065442" ignored="false" />
     <file path="$USER_HOME$/projects/Matchstiq/config/initializers/parser.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382123566688" ignored="false" />
     <file path="/parser.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381859138665" ignored="false" />
-    <file path="$USER_HOME$/projects/Matchstiq/app/controllers/candidates_controller.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382130751917" ignored="false" />
-    <file path="/candidates_controller.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382130670223" ignored="false" />
-    <file path="$USER_HOME$/projects/Matchstiq/app/views/candidates/index.html.haml" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382130694957" ignored="false" />
-    <file path="$USER_HOME$/projects/Matchstiq/app/models/resume.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382131386039" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/app/controllers/candidates_controller.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383073454379" ignored="false" />
+    <file path="/candidates_controller.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383073196085" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/app/views/candidates/index.html.haml" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383081193645" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/app/models/resume.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382985530488" ignored="false" />
     <file path="$USER_HOME$/projects/Matchstiq/config/settings.yml" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382123566688" ignored="false" />
     <file path="/settings.yml" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1381850111561" ignored="false" />
-    <file path="/fragment.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382118104019" ignored="false" />
+    <file path="/fragment.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383072691348" ignored="false" />
     <file path="/employment.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382019774323" ignored="false" />
     <file path="/education.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382030143523" ignored="false" />
     <file path="/contact_information.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382031633162" ignored="false" />
@@ -42,13 +42,33 @@
     <file path="$USER_HOME$/projects/Matchstiq/app/views/word_exporter/html/rce/_document.xhtml.erb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382123309713" ignored="false" />
     <file path="$USER_HOME$/projects/Matchstiq/app/assets/javascripts/pages/inbox.js" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382123309713" ignored="false" />
     <file path="$USER_HOME$/projects/Matchstiq/app/views/word_exporter/html/rce/_employment_history.xhtml.erb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382123309713" ignored="false" />
-    <file path="$USER_HOME$/projects/Matchstiq/config/routes.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382123566688" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/config/routes.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383061885649" ignored="false" />
     <file path="/development.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382129894767" ignored="false" />
     <file path="$USER_HOME$/projects/Matchstiq/config/environments/development.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382129895396" ignored="false" />
-    <file path="/index.html.haml" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382130694025" ignored="false" />
+    <file path="/index.html.haml" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383081193645" ignored="false" />
     <file path="$USER_HOME$/projects/Matchstiq/app/models/applicant.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382130972031" ignored="false" />
     <file path="/applicant.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382130946777" ignored="false" />
     <file path="/README.md" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382979758609" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/app/controllers/resumes_controller.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383068993478" ignored="false" />
+    <file path="/resumes_controller.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382985567372" ignored="false" />
+    <file path="/routes.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383061879729" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/public/assets_dev/application-41952eb7aa92e32c45d2f7dcd364547e.css" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382991642922" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/public/assets_dev/old/application-41952eb7aa92e32c45d2f7dcd364547e.css" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382991642922" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/public/assets/manifest.json" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1382992036580" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/tmp/pids/server.pid" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383060177596" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/app/views/candidates/remove_candidate.haml" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383060100902" ignored="false" />
+    <file path="/temp.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383060709010" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/app/views/candidates/remove_candidate_modal.html.haml" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383081368568" ignored="false" />
+    <file path="/remove_candidate_modal.html.haml" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383081336502" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/app/controllers/application_controller.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383073604770" ignored="false" />
+    <file path="/application_controller.rb" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383073603402" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/public/assets/application.css" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383079070996" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/lib/tasks/deployments.rake" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383077830395" ignored="false" />
+    <file path="/deployments.rake" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383077830001" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/README.rdoc" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383078014302" ignored="false" />
+    <file path="/README.rdoc" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383078010694" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/app/assets/stylesheets/components/_fontello.css.scss" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383078264967" ignored="false" />
+    <file path="$USER_HOME$/projects/Matchstiq/app/assets/stylesheets/pages/_candidates.css.sass" changelist="b6182168-ab54-41a1-b860-79ecfba8cdcb" time="1383081056355" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +100,7 @@
       <file leaf-file-name="patent.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/burning_glass/patent.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="42" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+            <state line="16" column="2" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,7 +154,7 @@
       <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/burning_glass/version.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="113" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+            <state line="1" column="19" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,7 +163,7 @@
       <file leaf-file-name="burning_glass.gemspec" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/burning_glass.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="50" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
+            <state line="12" column="25" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,7 +172,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="68" selection-start="475" selection-end="475" vertical-scroll-proportion="0.17843866">
+            <state line="14" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.063197024">
               <folding />
             </state>
           </provider>
@@ -379,7 +399,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="119" y="102" width="1931" height="1031" extended-state="0" />
+    <frame x="119" y="102" width="1931" height="1031" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.4997339" order="-1" side_tool="false" content_ui="tabs" />
@@ -537,7 +557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/burning_glass/patent.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+        <state line="16" column="2" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -565,14 +585,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/burning_glass/version.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="113" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+        <state line="1" column="19" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/burning_glass.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="50" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
+        <state line="12" column="25" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -593,7 +613,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="68" selection-start="475" selection-end="475" vertical-scroll-proportion="0.17843866">
+        <state line="14" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.063197024">
           <folding />
         </state>
       </provider>
