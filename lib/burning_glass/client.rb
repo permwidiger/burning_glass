@@ -37,12 +37,13 @@ module Burning_Glass
       begin
         puts "File #{filename} found, trying to parse..."
         resume_raw = File.read(filename)
+        extension = filename.extname
       rescue Exception => e
         binding.pry
         return nil
       end
 
-      parse(resume_raw)
+      parse(resume_raw, extension)
     end
   end
 end
