@@ -26,5 +26,16 @@ module Burning_Glass
       Resume.parse(result.body[@svcResponse][@svcReturn])
     end
 
+    def parse_from_file(filename)
+      begin
+        puts "File #{filename} found, trying to parse..."
+        resume_raw = File.read(filename)
+      rescue Exception => e
+        binding.pry
+        return nil
+      end
+
+      parse(resume_raw)
+    end
   end
 end
